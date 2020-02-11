@@ -1,5 +1,5 @@
 import random
-
+test
 
 def lock(data, A1, key):
     if len(A1) != len(key):
