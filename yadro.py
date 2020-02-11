@@ -3,7 +3,7 @@ import random
 
 def lock(data, A1, key):
     if len(A1) != len(key):
-        print("Критическая ошибка!/nДлина алфавита не совпадает с длиной ключа.")
+        print("Критическая ошибка!\nДлина алфавита не совпадает с длиной ключа.")
         exit()
     dict = {}
     for i, e_ in enumerate(A1):
@@ -19,7 +19,7 @@ def lock(data, A1, key):
 
 def unlock(lock_data, A1, key):
     if len(A1) != len(key):
-        print("Критическая ошибка!/nДлина алфавита не совпадает с длиной ключа.")
+        print("Критическая ошибка!\nДлина алфавита не совпадает с длиной ключа.")
         exit()
     dict = {}
     for i, e_ in enumerate(key):
